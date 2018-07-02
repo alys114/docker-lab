@@ -4,4 +4,4 @@
 博客专题：[http://blog.alys114.com/tag/docker/](http://blog.alys114.com/tag/docker/)
 
 ## 监控
-- [cAdvisor + InfluxDB + Grafana](./monitor-cij/)
+- [cAdvisor + InfluxDB + Grafana](https://github.com/alys114/docker-lab/tree/master/monitor-cif)
