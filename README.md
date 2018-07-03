@@ -5,3 +5,4 @@
 
 ## 监控
 - [cAdvisor + InfluxDB + Grafana](https://github.com/alys114/docker-lab/tree/master/monitor-cif)
+- [cAdvisor + InfluxDB + Grafana 版本3](https://github.com/alys114/docker-lab/tree/master/monitor-cif-V3)
