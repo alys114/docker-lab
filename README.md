@@ -6,3 +6,4 @@
 ## 监控
 - [cAdvisor + InfluxDB + Grafana](https://github.com/alys114/docker-lab/tree/master/monitor-cif)
 - [cAdvisor + InfluxDB + Grafana 版本3](https://github.com/alys114/docker-lab/tree/master/monitor-cif-V3)
+- [Nginx 负载均衡的样例](https://github.com/alys114/docker-lab/tree/master/docker-nginx-lb)
