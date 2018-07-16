@@ -1,0 +1,21 @@
+version: "3"
+services:
+  site1:
+    image: nginx:1.15
+    volumes:
+      - ./site1/conf/:/etc/nginx/conf.d/
+      - ./site1/html/:/site/
+
+  site2:
+    image: nginx:1.15
+    volumes:
+      - ./site2/conf/:/etc/nginx/conf.d/
+      - ./site2/html/:/site/
+ 
+  lb:
+    image: nginx:1.15
+    volumes:
+      - ./lb/conf:/etc/nginx/conf.d/
+    ports:
+      - "80:80"
+      - "8001:8001"
